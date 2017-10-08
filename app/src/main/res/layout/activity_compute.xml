@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/numText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinnerMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/measures"
+        android:layout_below="@+id/numText"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New"
+        android:layout_below="@+id/foodText"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/foodText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerMeasure"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Food Name"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/listViewIngredient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addButton" />
+
+    <Button
+        android:id="@+id/nutriShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listViewIngredient"
+        android:layout_toStartOf="@+id/addButton"
+        android:text="nutri" />
+
+    <Button
+        android:id="@+id/add"
+        android:onClick="ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listViewIngredient"
+        android:layout_toStartOf="@+id/nutriShow"
+        android:text="Button" />
+
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_adding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.recipicks.recipicks.Tables.dataAddingActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextFood"
+        android:hint="@string/foodN" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextFat"
+        android:layout_alignEnd="@+id/editTextFat"
+        android:id="@+id/editTextVita" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextCalo"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextCarbo" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFat"
+        android:layout_below="@+id/editTextFatc"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFatc"
+        android:layout_below="@+id/editTextCalc"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextVitc"
+        android:layout_below="@+id/editTextVita"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextCalo"
+        android:layout_below="@+id/editTextVitc"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextIron"
+        android:layout_below="@+id/editTextCarbo"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFiber"
+        android:layout_below="@+id/editTextIron"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveFood"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextCalc"
+        android:layout_below="@+id/editTextFood"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFood"
+        android:id="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextCalc"
+        android:layout_above="@+id/editTextFatc" />
+
+    <TextView
+        android:text="@string/avitamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextVita"
+        android:layout_above="@+id/editTextVitc"
+        android:layout_below="@+id/editTextFat" />
+
+    <TextView
+        android:text="@string/cvitamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:id="@+id/textView17"
+        android:layout_above="@+id/editTextCalo"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextVita" />
+
+    <TextView
+        android:text="@string/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:id="@+id/textView18"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextVitc"
+        android:layout_above="@+id/editTextCarbo" />
+
+    <TextView
+        android:text="@string/carbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCalo"
+        android:id="@+id/textView19"
+        android:layout_above="@+id/editTextIron"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextCarbo" />
+
+    <TextView
+        android:text="@string/fiber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextIron"
+        android:id="@+id/textView21"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextIron"
+        android:layout_alignBottom="@+id/editTextFiber" />
+
+    <TextView
+        android:text="@string/fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/editTextCalc"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextFatc"
+        android:layout_above="@+id/editTextFat" />
+
+    <TextView
+        android:text="@string/iro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/editTextCarbo"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextCarbo"
+        android:layout_above="@+id/editTextFiber" />
+
+    <TextView
+        android:text="@string/Fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:id="@+id/textView22"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/editTextFat"
+        android:layout_above="@+id/editTextVita" />
+
+</RelativeLayout>

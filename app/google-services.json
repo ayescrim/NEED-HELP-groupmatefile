@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811699191137",
+    "firebase_url": "https://recipicks2.firebaseio.com",
+    "project_id": "recipicks2",
+    "storage_bucket": "recipicks2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811699191137:android:d419835838f15765",
+        "android_client_info": {
+          "package_name": "com.recipicks.recipicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811699191137-51nnr5bu46vh5p93ggasovdgo565nusa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.recipicks.recipicks",
+            "certificate_hash": "958a0b9e96bd4cdf85a4206dcec9326a695c249c"
+          }
+        },
+        {
+          "client_id": "811699191137-m629h45edb9nrfpfgcltt629jceuurbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrSVIuXb0HXqjBP4D6uaiJDGpCAi_ODM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811699191137-m629h45edb9nrfpfgcltt629jceuurbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

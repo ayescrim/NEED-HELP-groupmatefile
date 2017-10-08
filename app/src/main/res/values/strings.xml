@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Recipicks</string>
+    <string name="registration">Register</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="emailadd">Email Address</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="welcome">Welcome!</string>
+    <string name="title_activity_tabbed">tabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="allrecipes">All</string>
+    <string name="categories">Categories</string>
+    <string name="toprated">Top Rated</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_tab">tabAct</string>
+    <string name="title_activity_swipetab">swipetab</string>
+    <string name="entername">Enter Name</string>
+    <string name="save">Save</string>
+    <string name="age">Enter Age</string>
+    <string name="textview">TextView</string>
+    <string name="Fat"> Fat </string>
+    <string name="carbo">Carbohydrates</string>
+    <string name="fiber">Diet Fiber</string>
+    <string name="prote">Protein</string>
+    <string name="avitamin">Vitamin A</string>
+    <string name="cvitamin">Vitamin C</string>
+    <string name="calc">Calcium</string>
+    <string name="iro">Iron</string>
+    <string name="proceed">Proceed</string>
+    <string name="foodN">Food Name</string>
+    <string name="fc">Fat Calories</string>
+    <string name="calories">Calories</string>
+    <string name="add">ADD</string>
+    <string name="description"> Logo </string>
+    <string name="enteremail">Enter Email</string>
+    <string name="enterpass">Enter Password</string>
+    <string name="descriptio">Description:</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="NutrionalFacts">Nutrional Facts </string>
+    <string name="edit">Edit</string>
+    <string name="procedure">Procedure</string>
+    <string name="upload">Add</string>
+    <string name="preparation">Enter Procedure</string>
+
+
+    <array name="measures">
+        <item>pinch</item>
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>gram</item>
+        <item>kilo</item>
+
+    </array>
+
+</resources>
